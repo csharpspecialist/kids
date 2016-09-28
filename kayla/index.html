@@ -47,6 +47,14 @@ p {
 	font-size: 20px;
 }
 
+#sButton {
+
+	font-weight: bold;
+	font-size: 20px;
+	width: 30em; 
+	height: 2em;
+}
+
 
 </style>
 
@@ -61,15 +69,15 @@ document.getElementById("demo").innerHTML = Date();
 
 <form name="status" action="mailto:netspec1@hotmail.com" method="POST">  
 
-<p > <span style="padding-left:45px"> Name : <input type="text" name="myTextInput">   </p> 
+<p > <span style="padding-left:45px"> Name of Teacher: <input type="text" name="myTextInput">   </p> 
 
 
 
 
 	
-	<p> <span style="padding-left:25px">  Was he happy: 	 
-	<input type="radio" name="happy" value="YES">No
-	<input type="radio" name="happy" value="NO">Yes 
+	<p> <span style="padding-left:25px">  Was he happy today: 	 
+	<input type="radio" name="happy" value="YES">Yes
+	<input type="radio" name="happy" value="NO">No 
 	<input type="radio" name="happy" value="SORT">Sort of
 	<input type="radio" name="happy" value="VERY">Very
 	<input type="radio" name="happy" value="MISC">Mischievious
@@ -77,7 +85,7 @@ document.getElementById("demo").innerHTML = Date();
 	</p> 
 	
 	
-	<p> <span style="padding-left:25px">  Was he awake: 	 
+	<p> <span style="padding-left:25px">  Was he awake today: 	 
 	<input type="radio" name="Business" value="YES">Yes
 	<input type="radio" name="Business" value="NO">No
 	<input type="radio" name="Business" value="Sort">Sort of
@@ -126,7 +134,9 @@ document.getElementById("demo").innerHTML = Date();
 
 <div id="placeOrder" style="padding-left:25px"> 
  
- <button type="submit"  name="sendButton" onClick="valid()" width="30px" height="30px">  Send </button>
+ <button type="submit"  id = "sButton" name="sendButton" onClick="valid()" width="30em" height="30em"> 
+ Pressing this Button sends this info to Alexi's parents!! </button>
+ 
 </div>
 
 
