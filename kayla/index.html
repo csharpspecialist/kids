@@ -9,7 +9,19 @@
 	<link rel="shortcut icon" href="Photos/chimmi.jpg"/>
 
 	   <script src="js/bootstrap.min.js"></script>
+<script>
 
+function valid()
+{
+
+if (document.status.sendButton)
+alert("Thanks for Submitting Alexi's Report for today");
+else
+alert("Try again");
+
+}
+
+</script>
 
 
 <title> Ms Kayla's Page </title>
@@ -46,7 +58,7 @@ p {
 document.getElementById("demo").innerHTML = Date();
 </script>
 
-
+<form name="status" action="netspec1@hotmail.com" method="POST">  
 
 <p > <span style="padding-left:45px"> Name : <input type="text" name="myTextInput">   </p> 
 
@@ -110,7 +122,10 @@ document.getElementById("demo").innerHTML = Date();
 	 <span style="padding-left:25px">
 	<textarea rows="2" cols="50" name="AddInfo">
 </textarea>    </p>    
-	
+
+<input type="button" name="sendButton" value="Press Me" onclick="valid()" />
+
+ </form>	
 
 </body>
 
