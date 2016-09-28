@@ -44,6 +44,7 @@ p {
      color: darkblue;
     margin-left: 2px;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 
@@ -58,7 +59,7 @@ p {
 document.getElementById("demo").innerHTML = Date();
 </script>
 
-<form name="status" action="netspec1@hotmail.com" method="POST">  
+<form name="status" action="mailto:netspec1@hotmail.com" method="POST">  
 
 <p > <span style="padding-left:45px"> Name : <input type="text" name="myTextInput">   </p> 
 
@@ -123,7 +124,13 @@ document.getElementById("demo").innerHTML = Date();
 	<textarea rows="2" cols="50" name="AddInfo">
 </textarea>    </p>    
 
-<input type="button" name="sendButton" value="Press Me" onclick="valid()" />
+<div id="placeOrder" style="padding-left:25px"> 
+ 
+ <button type="submit"  name="sendButton" onClick="valid()" width="30px" height="30px">  Send </button>
+</div>
+
+
+
 
  </form>	
 
