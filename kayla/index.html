@@ -67,7 +67,7 @@ p {
 document.getElementById("demo").innerHTML = Date();
 </script>
 
-<form name="status" action="mailto:netspec1@hotmail.com" method="POST">  
+<form name="status" action="mailto:netspec1@hotmail.com" method="post" enctype="text/plain">  
 
 <p > <span style="padding-left:45px"> Name of Teacher: <input type="text" name="myTextInput">   </p> 
 
@@ -134,8 +134,16 @@ document.getElementById("demo").innerHTML = Date();
 
 <div id="placeOrder" style="padding-left:25px"> 
  
- <button type="submit"  id = "sButton" name="sendButton" onClick="valid()" width="30em" height="30em"> 
- Pressing this Button sends this info to Alexi's parents!! </button>
+  <!--   <button type="submit"  id = "sButton" name="sendButton" onClick="valid()" width="30em" height="30em"> 
+ Pressing this Button sends this info to Alexi's parents!! </button>      -->
+ 
+ 
+ <form action="mailto:netspec1@hotmail.com" method="post" enctype="text/plain" >
+FirstName:<input type="text" name="FirstName">
+Email:<input type="text" name="Email">
+<input type="submit" name="submit" value="Submit">
+</form>
+ 
  
 </div>
 
