@@ -1,7 +1,7 @@
 
 var work = function()
 {
-	console.log("working dude..no time for play");
+	alert("working dude..no time for play");
 };
 
   //   work();
