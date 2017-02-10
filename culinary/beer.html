@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="pics/diningtable.jpg" />
+
+    <title> Classy Fine Wine and Dine</title>
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/menu.css">
+    <script src="javaScript/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript">
+              function displayNextImage() {
+                  x = (x === images.length - 1) ? 0 : x + 1;
+                  document.getElementById("img").src = images[x];
+              }
+
+              function displayPreviousImage() {
+                  x = (x <= 0) ? images.length - 1 : x - 1;
+                  document.getElementById("img").src = images[x];
+              }
+
+              function startTimer() {
+                  setInterval(displayNextImage, 5000);
+              }
+
+              var images = [], x = -1;
+              images[0] = "pics/beer7.jpg";
+              images[1] = "pics/gin1.jpg";
+              images[2] = "pics/beer2.jpg";
+              images[3] = "pics/vodka1.jpg";
+              images[4] = "pics/beer3.jpg";
+              images[4] = "pics/bombay1.jpg";
+              images[5] = "pics/beer4.jpg";
+              images[6] = "pics/whiskey1.jpg";
+    </script>
+
+    <style>
+        body {
+            font-size: medium;
+            font-family: Serif;
+            background-color: white;
+            color: white;
+        }
+    </style>
+
+</head>
+<!--part of javascript for image scroll-->
+<body onload="startTimer()">
+    <img src="pics/logo.png" width="200" height="auto" /> 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="appetizers.html">  Appetizers  </a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Main Courses </a>
+            <div class="dropdown-content">
+                <a href="beef.html"> Beef </a>
+                <a href="chicken.html"> Chicken </a>
+                <a href="seafood.html"> Seafood </a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Spirits </a>
+            <div class="dropdown-content">
+                <a href="RedWine.html"> Red & White Wine </a>
+                <a href="beer.html">  Beers </a>
+            </div>
+        </li>
+        <li><a href="deserts.html">  Desserts </a></li>
+        <li><a href="contact.html">  Contact Us </a></li>
+    </ul>
+    <!--start script for java image scroll-->
+    <img id="img" src="pics/beer5.jpg" width=100% height="500" />
+
+    <center> <h1>     Domestic Beers </h1> </center>  
+
+    <div class="container">
+
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;"> 	<h3>  Budweiser 16 oz Bottle	</h3> </div>
+            <div class="col-md-6" style="background-color:lightblue;">  <h3>   Ice House 16 oz Bottle   </h3>  </div>
+            
+        </div>
+
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;">
+                <h3>  Bud Light 16 oz Bottle	</h3>
+                <h3>  Coors 16 oz Bottle	</h3>
+                <h3>  MGD 16 oz Bottle	</h3>
+                <h3>  Miller Light 16 oz Bottle	</h3>
+                <h3>  Natural Light 16 oz Bottle	</h3>
+                <h3>  Heineken 16 oz Bottle	</h3>
+                <h3>  Rolling Rock 16 oz Bottle	</h3>
+                <h3>  Red Stripe 16 oz Bottle	</h3>
+               
+            </div>
+
+            <div class="col-md-6" style="background-color:lightblue;">
+                <h3>  Keystone 16 oz Bottle	</h3>
+                <h3>  Keystone Light 16 oz Bottle	</h3>
+                <h3>  Pabst Blue Ribbon 16 oz Bottle	</h3>
+                <h3>  Bush 16 oz Bottle	</h3>  
+                <h3>  GL Christmas Ale 16 oz Bottle	</h3>
+                <h3>  GL Eliot Ness 16 oz Bottle	</h3>
+                <h3>  GL Dortmunder 16 oz Bottle	</h3>
+                <h3>  Blue Moon 16 oz Bottle	</h3>
+            </div>
+         
+        </div>
+
+        <br />
+
+        <center> <h1>     Imports </h1> </center>  
+        <br />
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;"> 	<h3>  Heineken 16 oz Bottle	</h3> </div>
+            <div class="col-md-6" style="background-color:lightblue;">  <h3>  Corona 16 oz Bottle   </h3>  </div>
+
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;">
+                <h3>  Foster's 16 oz Bottle	</h3>
+                <h3>  Becks 16 oz Bottle	</h3>
+                <h3>  Guiness 16 oz Bottle	</h3>
+                <h3>  Moretti 16 oz Bottle	</h3>     
+
+            </div>
+            <div class="col-md-6" style="background-color:lightblue;">
+                <h3>  Corona Light 16 oz Bottle	</h3>
+                <h3>  Dos Equis 16 oz Bottle	</h3>
+                <h3>  Harps 16 oz Bottle	</h3>
+                <h3>  Beck's 16 oz Bottle	</h3>
+              
+            </div>
+
+        </div>
+
+        <center> <h1>   Liquors </h1> </center>
+        <br />
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;"> 	<h3>  Gin's	</h3> </div>
+            <div class="col-md-6" style="background-color:lightblue;">  <h3>  Vodka's   </h3>  </div>
+
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;">
+                <h3>  Beefeater	</h3>
+                <h3>  Tanqueray	</h3>
+                <h3>  Bombay Sapphire	</h3>
+                <h3>  Seagram's	</h3>
+                <h3>  Old Tom's	</h3>
+                <h3>  Gordon's	</h3>
+                <h3>  Seagram's	</h3>
+
+            </div>
+            <div class="col-md-6" style="background-color:lightblue;">
+                <h3>  Grey Goose	</h3>
+                <h3>  Ciroc	</h3>
+                <h3>  Skyy	</h3>
+                <h3>  Stolichnaya	</h3>
+                <h3>  Smirnoff	</h3>
+                <h3>  Ketel One	</h3>
+                <h3>  Belvedere	</h3>
+
+            </div>
+
+        </div>
+
+        <br />
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;"> 	<h3>  Whiskey's	</h3> </div>
+            <div class="col-md-6" style="background-color:lightblue;">  <h3>  Bourbons's   </h3>  </div>
+
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-6" style="background-color:#d8c9a6;">
+                <h3>   Johnnie Walker	</h3>
+                <h3>  Dewars	</h3>
+                <h3>  Cutty Sark	</h3>
+                <h3>  Chivas Regal	</h3>
+                <h3>  White Horse	</h3>
+                <h3>  Buchanan's</h3>
+                <h3>  Black Bottle	</h3>
+           
+            </div>
+            <div class="col-md-6" style="background-color:lightblue;">
+                <h3>  Baker's	</h3>
+                <h3>  Jim Beam	</h3>
+                <h3>  Booker's	</h3>
+                <h3>  Jim Beam Black	</h3>
+                <h3>  Elijah Craig	</h3>
+                <h3>  Knob Creek	</h3>
+                <h3>  Old Crow	</h3>
+
+            </div>
+
+        </div>
+
+        </div>
+    <footer id="footer">
+        <b> 2017 Copyright Design and Development by <u>clevelandCoders Inc.</u></b>
+
+    </footer>
+</body>
+</html>
